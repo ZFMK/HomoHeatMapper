@@ -4,41 +4,41 @@
 
 ## Notes regarding software
 
-###Name        
+### Name        
 HomoHeatMapper
 
-###Version
+### Version
 1.0
 
-###Copyright
+### Copyright
 Copyright © 2019 Bernhard Misof. All rights reserved.
 
-###Warning
+### Warning
 The copyright holder takes no legal responsibility for the correctness of 
 results obtained using this program.
 
-#Author
+### Author
 Bernhard Misof
 
-#Address
+### Address
 Center for Molecular Biodiversity Research
 Zoological Research Museum A. Koenig
 Bonn, Germany
 
-###Contact
+### Contact
 b.misof@leibniz-zfmk.de
 
-###Date
+### Date
 2 November 2019
 
-###Purpose
+### Purpose
 HomoHeatMapper produces a heat map from a distance matrix with probabilities 
 obtained using Homo v2.0 (https://github.com/lsjermiin/Homo.v2.0).
             
 The smaller a probability is, the darker the corresponding pixel in the heat 
 map is.
  
-###Format
+### Format
 Probabilities must be saved in a text file with comma-separated values (.csv).
 
 The first line must contain the number of samples being compared. 
@@ -46,27 +46,28 @@ The first line must contain the number of samples being compared.
 Each of the following lines must start with a sample name, and then followed
 by the probabilities, one for each comparison involving the named sample.
  
-###Example
+### Example
 See file labelled 22_root_Pvalues.csv.
 
-###Install
+### Install
 To install HomoHeatMapper.pl, type (in the command line):
 
             sudo cp HomoHeatMapper.pl /usr/local/bin/. 
 
-###Exceute
+### Exceute
             HomoHeatMapper -i <infile.csv> <-t|f>
 
-###Help
+### Help
             -t = triangular heat map; -f = square heat map
 
-###Status
+### Status
 Software complete
 
-###Note
+### Note
 Contact author for updates, etc
 
-###ReferenceJ
-ermiin LS, Lovell DR, Misof B, Foster PG, Robinson J. Software for detecting 
+### Reference
+
+Jermiin LS, Lovell DR, Misof B, Foster PG, Robinson J. Software for detecting 
             heterogeneous evolutionary processes across aligned sequence data. Syst. Biol.
             (submitted)
