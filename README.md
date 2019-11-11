@@ -2,7 +2,7 @@
  HomoHeatMapper: A perl script designed to generate heat maps from matrices of probabilities generate by Homo v2.0
 
 
-## NOTES REGARDING SOFTWARE
+## Notes regarding the software
 
 NAME        HomoHeatMapper
 
