@@ -4,52 +4,69 @@
 
 ## Notes regarding software
 
-NAME        HomoHeatMapper
+###Name        
+HomoHeatMapper
 
-VERSION     1.0
+###Version
+1.0
 
-COPYRIGHT   Copyright © 2019 Bernhard Misof. All rights reserved.
+###Copyright
+Copyright © 2019 Bernhard Misof. All rights reserved.
 
-WARNING     The copyright holder takes no legal responsibility for the correctness of 
-            results obtained using this program.
+###Warning
+The copyright holder takes no legal responsibility for the correctness of 
+results obtained using this program.
 
-AUTHOR      Bernhard Misof
+#Author
+Bernhard Misof
 
-ADDRESS     Center for Molecular Biodiversity Research
-            Zoological Research Museum A. Koenig
-            Bonn, Germany
+#Address
+Center for Molecular Biodiversity Research
+Zoological Research Museum A. Koenig
+Bonn, Germany
 
-CONTACT     b.misof@leibniz-zfmk.de
+###Contact
+b.misof@leibniz-zfmk.de
 
-DATE        2 November 2019
+###Date
+2 November 2019
 
-PURPOSE     HomoHeatMapper produces a heat map from a distance matrix with probabilities 
-            obtained using Homo v2.0 (https://github.com/lsjermiin/Homo.v2.0).
+###Purpose
+HomoHeatMapper produces a heat map from a distance matrix with probabilities 
+obtained using Homo v2.0 (https://github.com/lsjermiin/Homo.v2.0).
             
-            The smaller a probability is, the darker the corresponding pixel in the heat 
-            map is.
+The smaller a probability is, the darker the corresponding pixel in the heat 
+map is.
  
-FORMAT      Probabilities must be saved in a text file with comma-separated values (.csv).
+###Format
+Probabilities must be saved in a text file with comma-separated values (.csv).
 
-            The first line must contain the number of samples being compared. 
+The first line must contain the number of samples being compared. 
 
-            Each of the following lines must start with a sample name, and then followed
-            by the probabilities, one for each comparison involving the named sample.
+Each of the following lines must start with a sample name, and then followed
+by the probabilities, one for each comparison involving the named sample.
  
-EXAMPLE     See file labelled 22_root_Pvalues.csv.
+###Example
+See file labelled 22_root_Pvalues.csv.
 
-INSTALL     To install HomoHeatMapper.pl, type (in the command line):
+###Install
+To install HomoHeatMapper.pl, type (in the command line):
 
             sudo cp HomoHeatMapper.pl /usr/local/bin/. 
 
-EXECUTE     HomoHeatMapper -i <infile.csv> <-t|f>
+###Exceute
+            HomoHeatMapper -i <infile.csv> <-t|f>
 
-HELP        -t = triangular heat map; -f = square heat map
+###Help
+            -t = triangular heat map; -f = square heat map
 
-STATUS      Software complete
+###Status
+Software complete
 
-NOTE        Contact author for updates, etc
+###Note
+Contact author for updates, etc
 
-REFERENCE   Jermiin LS, Lovell DR, Misof B, Foster PG, Robinson J. Software for detecting 
+###ReferenceJ
+ermiin LS, Lovell DR, Misof B, Foster PG, Robinson J. Software for detecting 
             heterogeneous evolutionary processes across aligned sequence data. Syst. Biol.
             (submitted)
